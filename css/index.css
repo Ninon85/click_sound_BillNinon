@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+
+}
+
+#main-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+
+    width: 100%;
+
+
+}
+
+#btn-container>button {
+    background: linear-gradient(217deg, rgb(255, 0, 0), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(238, 255, 0, 0.925), rgba(0, 0, 255, 0) 70.71%);
+    /* height: 50px; */
+    min-height: 50px;
+
+    /* min-height: 50px; */
+    width: 24%;
+    /* margin: 2% 2% 0 0; */
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+#stop-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px
+}
+
+#stop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 3em;
+
+    border-radius: 5px;
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(238, 255, 0, 0.925), rgba(0, 0, 255, 0) 70.71%);
+}
+
+footer {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
